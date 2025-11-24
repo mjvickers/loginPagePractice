@@ -44,3 +44,7 @@ h1{
 .loginContainer label{
     font-size: 1em;
 }
+
+.loginContainer p:hover{
+    color:blue;
+}
