@@ -8,43 +8,61 @@ body{
     color: white;
 }
 
-h1{
-    font-size: 5em;
-}
-
 .loginPageContainer{
     height: 100vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
+    /*align-items: center;
+    /*gap: 80px;*/
+    /*PlaceHolder - Delete Below Later*/
+    /*background-color: red;*/
+}
+
+.loginContainerBanner {
+    /*Container Sizing*/
+    width: 90%;
+    height: 30%; 
+    /*Positioning*/
+    position: absolute;     /* position behind everything */
+    top: 0;
+    left: 5%;
+    top: 35%;
+    background-color: rgba(225, 225, 225, 0.5); /* grey w/ 50% opacity */
+    border-radius: 20px;
+    z-index: -1;              /* below text containers */
 }
 
 .leftContainer{
-    width: 50vw;
+    /*Container Sizing*/
+    height:100vh;
+    width: 45%;
+    /*Positioning*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 5%;
     padding: 10px 10px;
-    background-color:rgba(236, 236, 236, 0.5);
+    /*Decoration*/
+    /*background-color:rgba(236, 236, 236, 0.5);*/
     border-radius: 20px;
     text-align: left;
+    /*PlaceHolder - Delete Below Later*/
+    /*background-color: aqua;*/
 }
 
 .loginContainer{
-    /*width: 50vw;*/
+    /*Container Sizing*/
+    height:100vh;
+    width: 50vw;
+    /*Positioning*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 10px 10px;
-    background-color:rgba(236, 236, 236, 0.5);
+    /*Decoration*/
     border-radius: 20px;
-    align-content: center;
-}
-
-.loginContainer h2{
-    font-size: 1.5em;
-}
-
-.loginContainer label{
-    font-size: 1em;
-}
-
-.loginContainer p:hover{
-    color:blue;
+    /*PlaceHolder - Delete Below Later*/
+    /*background-color: orange;*/
 }
